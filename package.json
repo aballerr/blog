@@ -1,0 +1,31 @@
+{
+  "name": "sequelizeLearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha tests",
+    "precommit": "pretty-quick --staged"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3",
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.6.1",
+    "eslint-config-google": "^0.10.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.1.1",
+    "mocha": "^5.2.0",
+    "pretty-quick": "^1.7.0"
+  }
+}
